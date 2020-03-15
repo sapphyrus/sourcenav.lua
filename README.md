@@ -18,5 +18,5 @@ f:close()
 
 local nav_mesh = sourcenav.parse(content)
 
-print("Parsed " .. #nav_mesh.places .. " place names, " .. #nav_mesh.areas .. " areas and " .. #nav_mesh.ladders .. " ladders.")
+print("Parsed " .. #nav_mesh.places .. " places, " .. #nav_mesh.areas .. " areas, " .. #nav_mesh.ladders .. " ladders.")
 ```
