@@ -154,7 +154,7 @@ local function parse(raw)
 		ladder.top = buf:unpack_vec()
 		ladder.bottom = buf:unpack_vec()
 
-		ladder.length, ladder.direction = buf:unpack("Ib")
+		ladder.length, ladder.direction = buf:unpack("fI")
 
 		ladder.top_forward_area_id, ladder.top_left_area_id, ladder.top_right_area_id, ladder.top_behind_area_id = buf:unpack("IIII")
 		ladder.bottom_area_id = buf:unpack("I")
